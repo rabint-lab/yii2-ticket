@@ -1,0 +1,22 @@
+{
+    "name": "rabint/ticket",
+    "description": "An extension for managing ads for yii2.",
+    "type": "yii2-extension",
+    "homepage": "http://rabint.ir",
+    "license": "Exclusive",
+    "authors": [{
+            "name": "rabint",
+            "email": "info@rabint.ir",
+            "homepage": "http://www.rabint.ir"
+        }
+    ],
+    "require": {
+        "rabint/base": "*",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rabint\\ticket\\": ""
+        }
+    }
+}
